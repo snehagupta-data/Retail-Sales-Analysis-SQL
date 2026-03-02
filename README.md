@@ -1,23 +1,23 @@
-# ?? Retail Sales Analysis � SQL Portfolio Project
+# 📊 Retail Sales Analysis – SQL Portfolio Project
 
-## ?? Project Overview
+## 🚀 Project Overview
 
 This project performs end-to-end analysis of retail transaction data using **PostgreSQL**.  
 
-The objective of this project is to simulate a real-world data analyst workflow � starting from database setup, data cleaning, exploratory analysis, and finally answering business-driven questions using advanced SQL techniques.
+The objective of this project is to simulate a real-world data analyst workflow — starting from database setup, data cleaning, exploratory analysis, and finally answering business-driven questions using advanced SQL techniques.
 
 This project demonstrates:
 
-- ?? Data Cleaning & Validation  
-- ?? Exploratory Data Analysis (EDA)  
-- ?? Revenue & Profit Analysis  
-- ?? Customer Segmentation  
-- ?? Advanced SQL (CTEs & Window Functions)  
-- ?? Business KPI Thinking  
+- 🧹 Data Cleaning & Validation  
+- 🔎 Exploratory Data Analysis (EDA)  
+- 📈 Revenue & Profit Analysis  
+- 👥 Customer Segmentation  
+- 🧠 Advanced SQL (CTEs & Window Functions)  
+- 📊 Business KPI Thinking  
 
 ---
 
-## ?? Tech Stack
+## 🛠 Tech Stack
 
 - **Database:** PostgreSQL  
 - **Tool:** pgAdmin 4  
@@ -26,12 +26,12 @@ This project demonstrates:
 
 ---
 
-## ?? Database Schema
+## 🗄 Database Schema
 
 **Database Name:** `p1_retail_db`  
 **Table Name:** `retail_sales`
 
-### ?? Table Structure
+### 📌 Table Structure
 
 | Column Name       | Data Type |
 |-------------------|----------|
@@ -49,21 +49,21 @@ This project demonstrates:
 
 ---
 
-## ?? Data Cleaning Process
+## 🧹 Data Cleaning Process
 
 Before conducting analysis, the dataset was validated for accuracy and completeness.
 
-? Checked for NULL values across all key columns  
-? Removed incomplete or corrupted records  
-? Verified primary key uniqueness (`transaction_id`)  
-? Ensured category consistency  
-? Validated revenue and cost columns  
+✔ Checked for NULL values across all key columns  
+✔ Removed incomplete or corrupted records  
+✔ Verified primary key uniqueness (`transaction_id`)  
+✔ Ensured category consistency  
+✔ Validated revenue and cost columns  
 
 This ensures reliable and accurate analytical output.
 
 ---
 
-## ?? Business Questions Addressed
+## 🔍 Business Questions Addressed
 
 The project answers practical business questions such as:
 
@@ -80,15 +80,15 @@ The project answers practical business questions such as:
 
 ---
 
-## ?? Advanced Business Analysis
+## 📈 Advanced Business Analysis
 
 To elevate this project beyond basic SQL queries, advanced analytical logic was implemented.
 
 ---
 
-### ?? 1?? Revenue Contribution by Category
+### 🔥 1️⃣ Revenue Contribution by Category
 
-This analysis calculates each category�s percentage contribution to total revenue using a window function.
+This analysis calculates each category’s percentage contribution to total revenue using a window function.
 
 ```sql
 SELECT 
@@ -104,12 +104,12 @@ GROUP BY category
 ORDER BY total_revenue DESC;
 ```
 
-?? **Business Value:**  
+📌 **Business Value:**  
 Helps identify which categories drive the majority of revenue, enabling strategic inventory and marketing decisions.
 
 ---
 
-### ?? 2?? Customer Segmentation
+### 🔥 2️⃣ Customer Segmentation
 
 Customers are segmented based on total spending.
 
@@ -133,12 +133,12 @@ FROM customer_spending
 ORDER BY total_spent DESC;
 ```
 
-?? **Business Value:**  
+📌 **Business Value:**  
 Supports loyalty programs, targeted promotions, and high-value customer retention strategies.
 
 ---
 
-### ?? 3?? Profit & Profit Margin Analysis
+### 🔥 3️⃣ Profit & Profit Margin Analysis
 
 Unlike basic revenue-only analysis, this query evaluates profitability using COGS.
 
@@ -157,12 +157,12 @@ GROUP BY category
 ORDER BY total_profit DESC;
 ```
 
-?? **Business Value:**  
-Revenue alone does not indicate performance � profit margin reveals true category performance.
+📌 **Business Value:**  
+Revenue alone does not indicate performance — profit margin reveals true category performance.
 
 ---
 
-## ?? Key Insights
+## 📊 Key Insights
 
 - A limited number of categories contribute the majority of revenue.
 - High-value customers account for a significant share of total sales.
@@ -172,7 +172,7 @@ Revenue alone does not indicate performance � profit margin reveals true categor
 
 ---
 
-## ?? SQL Concepts Demonstrated
+## 🧠 SQL Concepts Demonstrated
 
 - GROUP BY & Aggregations  
 - COUNT(DISTINCT)  
@@ -185,23 +185,23 @@ Revenue alone does not indicate performance � profit margin reveals true categor
 
 ---
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 Retail-Sales-Analysis/
-?
-??? sql/
-?   ??? retail_sales_analysis.sql
-?
-??? dataset/
-?   ??? retail_sales.csv
-?
-??? README.md
+│
+├── sql/
+│   └── retail_sales_analysis.sql
+│
+├── dataset/
+│   └── retail_sales.csv
+│
+└── README.md
 ```
 
 ---
 
-## ? How to Run the Project
+## ▶ How to Run the Project
 
 1. Create database `p1_retail_db`
 2. Execute table creation script
@@ -211,7 +211,7 @@ Retail-Sales-Analysis/
 
 ---
 
-## ?? Business Impact Simulation
+## 📌 Business Impact Simulation
 
 If implemented in a real business setting, this analysis could:
 
@@ -222,7 +222,7 @@ If implemented in a real business setting, this analysis could:
 
 ---
 
-## ????? About Me
+## 👩‍💻 About Me
 
 **Sneha Gupta**  
 Aspiring Data Analyst  
@@ -232,7 +232,7 @@ This project is part of my portfolio showcasing practical SQL problem-solving an
 
 ---
 
-## ? Portfolio Objective
+## ⭐ Portfolio Objective
 
 This project reflects my ability to:
 
@@ -243,4 +243,4 @@ This project reflects my ability to:
 
 ---
 
-?? Thank you for reviewing this project.
+📌 Thank you for reviewing this project.
